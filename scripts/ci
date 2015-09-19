@@ -10,7 +10,7 @@ source scripts/build-common
 run --assets ./scripts/build-common \
     ./scripts/bootstrap
 run ./scripts/download
-run --assets ./config/buildroot-config \
+run --assets ./config/raspberrypi-buildroot-config \
     --assets ./config/busybox-dynamic.config \
     ./scripts/build-busybox
 run ./scripts/package
